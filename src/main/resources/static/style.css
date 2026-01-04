@@ -17,7 +17,7 @@ body {
 .auth-container {
     max-width: 420px;
     margin: 120px auto;
-    background: #ffffff;
+    background: #white;
     padding: 32px;
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);

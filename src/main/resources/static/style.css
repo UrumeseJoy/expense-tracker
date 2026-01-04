@@ -84,7 +84,7 @@ body {
 /* ===== Error Message ===== */
 .error {
     background: #fee2e2;
-    color: #white;
+    color: #black;
     padding: 10px;
     border-radius: 6px;
     margin-top: 12px;

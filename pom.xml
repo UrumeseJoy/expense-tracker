@@ -17,7 +17,8 @@
 	<licenses>
 		<license/>
 	</licenses>
-	<developers>
+    <packaging>jar</packaging>
+    <developers>
 		<developer/>
 	</developers>
 	<scm>

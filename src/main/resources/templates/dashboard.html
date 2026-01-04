@@ -2,9 +2,10 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Dashboard</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
-
+<div class="dashboard-container">
 <h2>Expense Dashboard</h2>
 
 <form th:action="@{/expenses/add}" th:object="${expense}" method="post">
@@ -47,8 +48,8 @@
 </table>
 
 <form th:action="@{/logout}" method="post">
-    <button type="submit">Logout</button>
+    <button type="submit" class="logout-btn">Logout</button>
 </form>
-
+</div>
 </body>
 </html>

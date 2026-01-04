@@ -1,0 +1,170 @@
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== App Background ===== */
+body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    color: #1f2937;
+}
+
+/* ===== Center Containers ===== */
+.auth-container {
+    max-width: 420px;
+    margin: 120px auto;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Headings ===== */
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #111827;
+}
+
+/* ===== Inputs ===== */
+.auth-container input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.auth-container input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+/* ===== Buttons ===== */
+.auth-container button {
+    width: 100%;
+    padding: 12px;
+    background: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.auth-container button:hover {
+    background: #4f46e5;
+}
+
+/* ===== Links ===== */
+.auth-container p {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.auth-container a {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Error Message ===== */
+.error {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ===== Dashboard ===== */
+.dashboard-container {
+    max-width: 1000px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-container h2,
+.dashboard-container h3 {
+    margin-bottom: 16px;
+}
+
+/* ===== Expense Form ===== */
+.dashboard-container form input {
+    padding: 10px;
+    margin-right: 6px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+}
+
+.dashboard-container form button {
+    padding: 10px 16px;
+    background: #22c55e;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+}
+
+.dashboard-container form button:hover {
+    background: #16a34a;
+}
+
+/* ===== Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+th {
+    background: #f3f4f6;
+    text-align: left;
+    padding: 12px;
+    font-weight: 600;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* ===== Delete Button ===== */
+table button {
+    background: #ef4444;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+
+table button:hover {
+    background: #dc2626;
+}
+
+/* ===== Logout ===== */
+.logout-btn {
+    margin-top: 20px;
+    background: #111827;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
